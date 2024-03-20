@@ -13,8 +13,7 @@ Version Control System(버전 관리 시스템)의 약자.
 
 소프트웨어 개발에서 사용되는 중요한 도구 중 하나로, 코드의 변경 사항을 추적하고 관리하는 데 사용된다
 
-
-![hosu](https://github.com/yuhan27019/program/assets/162425444/2820d73e-5575-4721-baa7-60cfc818a9bc)
+![VCS 설명](https://github.com/yuhan27019/program/assets/162425444/bbd040c2-386f-41f2-bd9a-5ac0e5d35ecf)
 
 
  1.1 **VCS의 역할**
