@@ -324,7 +324,7 @@ print("코드 블록")
 
  6. 이미지 
 
- [한 번쯤 가보고 싶은 곳] ![hosu](https://github.com/yuhan27019/HW02/assets/162425444/3c622045-4a4c-4a63-88a0-a79a6a77ba21)
+ [한 번쯤 가보고 싶은 곳] [![hosu](https://github.com/yuhan27019/HW02/assets/162425444/3c622045-4a4c-4a63-88a0-a79a6a77ba21)](https://github.com/yuhan27019/program/issues/1#issue-2196720408)
  7. 들여쓰기
 
 &nbsp;유한대학교
