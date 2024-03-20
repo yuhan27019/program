@@ -2,7 +2,7 @@
 ## 학번: 202127019
 ## 이름: 김영민
 ## GIT 주소: https://github.com/yuhan27019/HW02.git
-## git commitid: 5902dc4e0a3cf51d613da8dbbd3fec0172fdc55c
+## git commitid: 61ff975496c8c97c2697c70bd2f191d01e6c1325 
 <br/>
 
 # 2주차 프로그래밍 패턴 과제
