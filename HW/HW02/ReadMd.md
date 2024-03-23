@@ -2,7 +2,7 @@
 ## 학번: 202127019
 ## 이름: 김영민
 ## GIT 주소: https://github.com/yuhan27019/HW02.git
-## git commitid: 5902dc4e0a3cf51d613da8dbbd3fec0172fdc55c
+## git commitid: 61ff975496c8c97c2697c70bd2f191d01e6c1325 
 <br/>
 
 # 2주차 프로그래밍 패턴 과제
@@ -13,6 +13,7 @@ Version Control System(버전 관리 시스템)의 약자.
 
 소프트웨어 개발에서 사용되는 중요한 도구 중 하나로, 코드의 변경 사항을 추적하고 관리하는 데 사용된다
 
+![VCS 설명](https://github.com/yuhan27019/program/assets/162425444/bbd040c2-386f-41f2-bd9a-5ac0e5d35ecf)
 
 
  1.1 **VCS의 역할**
@@ -101,6 +102,9 @@ git config –list
 
 * **깃허브에 repository 생성**
 
+![깃허브 설명 1](https://github.com/yuhan27019/program/assets/162425444/d0c85fb3-d046-4b00-a98e-415a338f8d84)
+![깃허브 설명 2](https://github.com/yuhan27019/program/assets/162425444/abbb921b-33e2-465d-89c9-905929fb4b48)
+![깃허브 설명 3](https://github.com/yuhan27019/program/assets/162425444/f44897fd-7b3f-42b7-8ee7-15429f44512a)
 
 * **파일 추가**: 프로젝트 디렉토리에서 변경된 파일을 Git이 추적하도록 추가합니다.
 <pre>
@@ -127,6 +131,7 @@ git commit -m "커밋 메시지
 **Commit는 일종의 세이브 같은 과정으로 하나의 작업의 상태를 1~3번이라고 하면 각 상태를 commit을 통해 저장해 두었다가 언제든 원할 때 각 번호의 상태로 돌아갈 수 있습니다.**
 
 **이때 뒤에 붙는 "-m "커밋 메시지"은 파일에 붙는 메모같은 것으로 어떤 파일을 올렸는지 구별할 때 유용합니다.**
+![commit m](https://github.com/yuhan27019/program/assets/162425444/0a50de45-3955-4a3a-8f59-95852c8aa000)
 
 
 * **원격 저장소 추가**: 원격 저장소를 추가하여 코드를 백업하고 다른 개발자와 협업합니다.
@@ -324,7 +329,9 @@ print("코드 블록")
 
  6. 이미지 
 
- [한 번쯤 가보고 싶은 곳] ![hosu](https://github.com/yuhan27019/HW02/assets/162425444/3c622045-4a4c-4a63-88a0-a79a6a77ba21)
+ [한 번쯤 가보고 싶은 곳] ![hosu](https://github.com/yuhan27019/program/assets/162425444/2820d73e-5575-4721-baa7-60cfc818a9bc)
+
+ 
  7. 들여쓰기
 
 &nbsp;유한대학교

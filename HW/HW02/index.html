@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>16:9 비율 화면</title>
+<link rel="stylesheet" href="style.css">
+<style>
+   
+</style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 제목 영역 -->
+        <div id="d_Top">
+            <span id="student_id">학번: 202127019</span>
+            <span id="student_name">이름: 김영민</span>
+
+        </div>
+    
+        <!-- 내용 영역 -->
+        <div class="content">
+            <!-- 파란색 영역 -->
+            <div id="d_left">
+                <input type="button" value="버튼1" class="btn1p" onclick="showCanvas()">
+                <input type="button" value="버튼2" class="btn2p" onclick="showImage()">
+            </div>
+    
+            <!-- 빨간색 영역 -->
+            <div class="red-section" id="d_right">
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function showCanvas() {
+    var d_right = document.getElementById("d_right");
+    // 캔버스 요소 생성
+    var canvas = document.createElement('canvas');
+    var ctx = canvas.getContext('2d');
+
+    // 캔버스 크기를 상대적인 값으로 설정
+    canvas.style.width = '80%'; // 빨간 영역의 80% 크기로 설정
+    canvas.style.height = '80%';
+
+    // 캔버스 픽셀 비율 설정 (레티나 디스플레이 대응)
+    var dpi = window.devicePixelRatio;
+    canvas.width = d_right.offsetWidth * dpi * 0.8;
+    canvas.height = d_right.offsetHeight * dpi * 0.8;
+    
+    // 원의 반지름 계산
+    var radius = Math.min(canvas.width, canvas.height) * 0.3;
+
+    // 원의 중심 좌표 계산
+    var centerX = canvas.width / 2;
+    var centerY = canvas.height / 2;
+
+    // 캔버스에 원 그리기
+    ctx.beginPath();
+    ctx.arc(centerX, centerY, radius, 0, 2 * Math.PI);
+    ctx.fillStyle = 'orange'; // 원의 색상 설정
+    ctx.fill();
+    ctx.closePath();
+
+    // 캔버스를 빨간 영역에 추가
+    d_right.innerHTML = '';
+    d_right.appendChild(canvas);
+}
+    
+        function showImage() {
+            var d_right = document.getElementById("d_right");
+            d_right.innerHTML = `
+                <img src="https://i.namu.wiki/i/UPX5478k5eOc0I22TRgcFWhlu6Sp1Nw-V4SkaIECQoCowybAC9zbTJhb-epG1oP2VL8MutNT14oDXkWyiFA7pA.webp" alt="나무위키 이미지">
+                <ul>
+                    <li>게임 이름: 펠월드</li>
+                    <li>출시일: 2024년 1월 19일</li>
+                    <li>장르: 생존게임</li>
+                    <li>좋아하는 이유: 
+                        <p>기존의 게임에선
+                            하지 못했던 자유감이
+                            만족스러웠다.
+                        </p>
+                    </li>
+                </ul>
+            `;
+        }
+        function showEmpty() {
+    var d_right = document.getElementById("d_right");
+    d_right.innerHTML = '<p class="empty-message">빈 화면</p>';
+}
+        
+        // 초기에 빈 화면 표시
+        showEmpty();
+    </script>
+    
+    </body>
+</html>
