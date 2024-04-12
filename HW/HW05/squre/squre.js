@@ -60,7 +60,7 @@ function draw() {
   redSquareAngle += Math.PI / 100; // 빨간 사각형 회전
   yellowSquareAngle += Math.PI / 80; // 노란 사각형 회전
   // 공전
-  revolutionAngle += Math.PI / 200;
+  revolutionAngle -= Math.PI / 200;
   yellowrevolutionAngle += Math.PI / 100;
 
   requestAnimationFrame(draw); // 애니메이션 프레임 요청
